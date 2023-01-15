@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <script src="xterm.js"></script>
+    <link rel="stylesheet" href="xterm.css" />
+  </head>
+  <body>
+    <div id="terminal"></div>
+    <script>
+      var term = new Terminal();
+      term.open(document.getElementById('terminal'));
+      term.write('Hello, World!');
+    </script>
+  </body>
+</html>
